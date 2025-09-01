@@ -472,6 +472,8 @@ webpage.Meta(hb.Meta().Attr("http-equiv", "refresh").Attr("content", "2; url = h
 
 ## Changelog
 
+2025.09.01 - Changed module namespace from gouniverse/hb to dracory/hb
+
 2025.07.02 - Added Small() shortcut
 
 2025.02.22 - Updated README.md with latest changes.

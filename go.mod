@@ -1,4 +1,4 @@
-module github.com/gouniverse/hb
+module github.com/dracory/hb
 
 go 1.23.0
 

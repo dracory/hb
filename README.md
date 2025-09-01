@@ -1,10 +1,10 @@
 <img src="screenshots/logo.jpg" width="100%" />
 
-# HTML Builder <a href="https://gitpod.io/#https://github.com/gouniverse/hb" style="float:right:"><img src="https://gitpod.io/button/open-in-gitpod.svg" alt="Open in Gitpod" loading="lazy"></a>
+# HTML Builder <a href="https://gitpod.io/#https://github.com/dracory/hb" style="float:right:"><img src="https://gitpod.io/button/open-in-gitpod.svg" alt="Open in Gitpod" loading="lazy"></a>
 
 ![tests](https://github.com/gouniverse/html/workflows/tests/badge.svg)
-[![Go Report Card](https://goreportcard.com/badge/github.com/gouniverse/hb)](https://goreportcard.com/report/github.com/gouniverse/hb)
-[![PkgGoDev](https://pkg.go.dev/badge/github.com/gouniverse/hb)](https://pkg.go.dev/github.com/gouniverse/hb)
+[![Go Report Card](https://goreportcard.com/badge/github.com/dracory/hb)](https://goreportcard.com/report/github.com/dracory/hb)
+[![PkgGoDev](https://pkg.go.dev/badge/github.com/dracory/hb)](https://pkg.go.dev/github.com/dracory/hb)
 
 Unpretentious short and sweet declarative HTML Builder.
 
@@ -38,10 +38,10 @@ Demos can be found on: https://golangui.com
 
 ```go
 // imported to global namespace, to avoid typing hb.* each time
-import . "github.com/gouniverse/hb"
+import . "github.com/dracory/hb"
 
 // or, regular import, and type hb.* before using it each time
-// import "github.com/gouniverse/hb"
+// import "github.com/dracory/hb"
 
 // 1. Create a container div with a "Hello world" message inside
 container := Div().Class("container").Text("Hello world")
@@ -58,7 +58,7 @@ html := section.ToHTML()
 ## Installation
 
 ```ssh
-go get -u github.com/gouniverse/hb
+go get -u github.com/dracory/hb
 ```
 
 ## Implemented Tag Shortcuts
@@ -464,7 +464,7 @@ webpage.Meta(hb.Meta().Attr("http-equiv", "refresh").Attr("content", "2; url = h
 
 ## Stargazers over time
 
-[![Stargazers over time](https://starchart.cc/gouniverse/hb.svg)](https://starchart.cc/gouniverse/hb)
+[![Stargazers over time](https://starchart.cc/dracory/hb.svg)](https://starchart.cc/dracory/hb)
 
 ## Similar
 
@@ -580,17 +580,17 @@ webpage.Meta(hb.Meta().Attr("http-equiv", "refresh").Attr("content", "2; url = h
   <source
     media="(prefers-color-scheme: dark)"
     srcset="
-      https://api.star-history.com/svg?repos=gouniverse/hb&type=Date&theme=dark
+      https://api.star-history.com/svg?repos=dracory/hb&type=Date&theme=dark
     "
   />
   <source
     media="(prefers-color-scheme: light)"
     srcset="
-      https://api.star-history.com/svg?repos=gouniverse/hb&type=Date
+      https://api.star-history.com/svg?repos=dracory/hb&type=Date
     "
   />
   <img
     alt="Star History Chart"
-    src="https://api.star-history.com/svg?repos=gouniverse/hb&type=Date"
+    src="https://api.star-history.com/svg?repos=dracory/hb&type=Date"
   />
 </picture>

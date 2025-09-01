@@ -3,7 +3,7 @@ package main
 import (
 	"testing"
 
-	"github.com/gouniverse/hb"
+	"github.com/dracory/hb"
 )
 
 // user is a sample struct used for benchmarking.
